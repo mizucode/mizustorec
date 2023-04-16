@@ -15,6 +15,7 @@
 @layer components {
 	html {
 		font-family: "Readex Pro", sans-serif;
+		background-color: #f7f7f7;
 	}
 	/* Header */
 	.menu-header {
