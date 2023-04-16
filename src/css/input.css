@@ -8,6 +8,9 @@
 	.floating-input {
 		@apply appearance-none px-3 py-1 text-xl  rounded-sm transition duration-200 bg-transparent w-full focus:outline-none border border-black/30 focus:border-biru;
 	}
+	.content {
+		@apply px-[70px];
+	}
 }
 /* End Login */
 
@@ -19,7 +22,7 @@
 	}
 	/* Header */
 	.menu-header {
-		@apply bg-white absolute shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-full flex items-center z-10;
+		@apply bg-white relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-full flex items-center z-10;
 	}
 	.navbar {
 		@apply flex items-center justify-between lg:justify-around relative py-1 lg:py-3;

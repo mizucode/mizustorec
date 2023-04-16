@@ -2,6 +2,10 @@
 module.exports = {
 	content: ["./public/**/*.{html,js}"],
 	theme: {
+		content: {
+			center: true,
+			padding: "32px",
+		},
 		container: {
 			center: true,
 			padding: "16px",
