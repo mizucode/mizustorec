@@ -27,7 +27,7 @@
 		@apply flex items-center gap-1;
 	}
 	.brand-logo {
-		@apply text-biru font-bold md:text-3xl;
+		@apply text-biru font-bold text-xl md:text-3xl;
 	}
 	.navbar-search {
 		@apply relative hidden lg:flex;
