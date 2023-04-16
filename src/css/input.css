@@ -3,10 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Login Html */
+@layer components {
+	.floating-input {
+		@apply appearance-none px-3 py-1 text-xl  rounded-sm transition duration-200 bg-transparent w-full focus:outline-none border border-black/30 focus:border-biru;
+	}
+}
+/* End Login */
+
+/* Index Html */
 @layer components {
 	html {
 		font-family: "Readex Pro", sans-serif;
 	}
+	/* Header */
 	.menu-header {
 		@apply bg-white absolute shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-full flex items-center z-10;
 	}
@@ -28,4 +38,5 @@
 	.input-search {
 		@apply outline outline-offset-2 outline-abu outline-1 w-72 text-sm p-1;
 	}
+	/* Header */
 }

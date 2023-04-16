@@ -14,6 +14,7 @@ module.exports = {
 				biru: "#1390ff",
 				kuning: "#ffd93d",
 				abu: "#454545",
+				dark: "#232323",
 			},
 			screens: {
 				"2xl": "1320px",
