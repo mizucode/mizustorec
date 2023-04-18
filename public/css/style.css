@@ -684,10 +684,11 @@ html{
 .wrapper{
   position: relative;
   display: flex;
-  width: 100%;
+  width: 100vw;
   max-width: 100%;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(255 217 61 / var(--tw-bg-opacity));
 }
@@ -702,7 +703,7 @@ html{
   height: 100%;
   width: 100%;
   transition-property: all;
-  transition-duration: 300ms;
+  transition-duration: 3000ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 

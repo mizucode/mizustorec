@@ -56,13 +56,13 @@ html {
 
 @layer components {
 	.wrapper {
-		@apply max-w-full w-full  bg-kuning flex items-center justify-center relative;
+		@apply max-w-full w-screen bg-kuning flex items-center justify-center relative overflow-hidden;
 	}
 	.image-container {
 		@apply max-w-[860px] w-[860px];
 	}
 	.carousel {
-		@apply h-full w-full flex  transition-all duration-300 ease-in-out;
+		@apply h-full w-full flex  transition-all duration-[3000ms] ease-in-out;
 	}
 	.carousel-img {
 		@apply h-full w-full object-cover border-kuning border-8 rounded-2xl;
