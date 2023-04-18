@@ -60,41 +60,28 @@
 				</div>
 			</div>
 		</header>
-		<section class="bg-kuning w-full pb-40 z-0">
-			<div class="w-full h-full flex justify-between relative z-10 opacity-80">
-				<div
-					class="mt-[6.5rem] absolute flex justify-around w-full gap-[15rem]"
-				>
-					<div
-						class="w-[48px] h-[48px] bg-white flex justify-center items-center rounded-full"
-					>
-						<button class="text-xl">
-							<i class="fa-solid fa-chevron-left text-biru"></i>
-						</button>
-					</div>
-					<div
-						class="w-[48px] h-[48px] bg-white flex justify-center items-center rounded-full"
-					>
-						<button class="text-xl">
-							<i class="fa-solid fa-chevron-right text-biru"></i>
-						</button>
-					</div>
-				</div>
+		<section class="wrapper">
+			<div class="button prev" id="prev">
+				<i class="fa-solid fa-chevron-left"></i>
 			</div>
-			<div class="container">
-				<div
-					class="flex py-4 md:pt-5 md:pb-20 overflow-hidden gap-4 justify-center relative h-full"
-				>
-					<div class="rounded-xl overflow-hidden">
-						<img
-							src="../img/banner1.webp"
-							width="360px"
-							height="260px"
-							alt=""
-						/>
-					</div>
+
+			<div class="image-container">
+				<div class="carousel">
+					<img src="../img/banner1.webp" alt="" class="carousel-img" />
+					<img src="../img/banner2.webp" alt="" class="carousel-img" />
+					<img src="../img/banner1.webp" alt="" class="carousel-img" />
+					<img src="../img/banner2.webp" alt="" class="carousel-img" />
+					<img src="../img/banner2.webp" alt="" class="carousel-img" />
+					<img src="../img/banner2.webp" alt="" class="carousel-img" />
+					<img src="../img/banner2.webp" alt="" class="carousel-img" />
+					<img src="../img/banner2.webp" alt="" class="carousel-img" />
+				</div>
+				<div class="button next" id="next">
+					<i class="fa-solid fa-chevron-right"></i>
 				</div>
 			</div>
 		</section>
+
+		<script src="../src/js/script.js"></script>
 	</body>
 </html>

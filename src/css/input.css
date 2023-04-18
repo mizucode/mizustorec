@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
 @tailwind base;
+html {
+	@apply m-0 p-0 box-border;
+	font-family: "Readex Pro", sans-serif;
+	background-color: #f7f7f7;
+}
 @tailwind components;
 @tailwind utilities;
 
@@ -22,10 +27,6 @@
 
 /* Index Html */
 @layer components {
-	html {
-		font-family: "Readex Pro", sans-serif;
-		background-color: #f7f7f7;
-	}
 	/* Header */
 	.menu-header {
 		@apply bg-white relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-full flex items-center z-10;
@@ -50,3 +51,31 @@
 	}
 	/* Header */
 }
+
+/* Carousel */
+
+@layer components {
+	.wrapper {
+		@apply max-w-full w-full  bg-kuning flex items-center justify-center relative;
+	}
+	.image-container {
+		@apply max-w-[860px] w-[860px];
+	}
+	.carousel {
+		@apply h-full w-full flex  transition-all duration-300 ease-in-out;
+	}
+	.carousel-img {
+		@apply h-full w-full object-cover border-kuning border-8 rounded-2xl;
+	}
+	.button {
+		@apply text-biru cursor-pointer absolute z-10 h-[30px] w-[30px] bg-white rounded-full flex justify-center items-center text-center text-lg top-1/2 -translate-y-1/2;
+	}
+	.prev {
+		@apply left-6;
+	}
+	.next {
+		@apply right-6;
+	}
+}
+
+/* End Carousel */
