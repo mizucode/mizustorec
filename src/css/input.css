@@ -80,3 +80,31 @@ html {
 }
 
 /* End Carousel */
+
+@layer components {
+	.card {
+		@apply bg-white text-gray-700 w-40 shadow-lg rounded-md overflow-hidden;
+	}
+	.badge {
+		@apply px-1 rounded-full text-[0.3rem] bg-gray-100;
+	}
+	.product-title {
+		@apply font-bold text-[10px] 
+		overflow-ellipsis overflow-hidden whitespace-nowrap;
+	}
+	.product-price {
+		@apply text-[10px] font-bold;
+	}
+	.product-discount {
+		@apply text-[0.5rem] line-through opacity-50;
+	}
+	.discount-percent {
+		@apply bg-green-500 px-1 py-0.5 rounded-md text-[0.3rem] text-white;
+	}
+	.button-primary {
+		@apply bg-biru/90 hover:bg-biru/80 px-3 py-0.5 text-[0.5rem] rounded-sm text-white font-medium tracking-wide transition;
+	}
+	.button-icon {
+		@apply flex-grow flex justify-center items-center text-[0.5rem] bg-gray-300/60 hover:bg-gray-300/80 transition rounded-sm;
+	}
+}
