@@ -691,8 +691,8 @@ html{
   overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(255 217 61 / var(--tw-bg-opacity));
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 @media (min-width: 1024px){
@@ -702,8 +702,8 @@ html{
 }
 
 .image-container{
-  width: 860px;
-  max-width: 860px;
+  width: 380px;
+  max-width: 650px;
 }
 
 @media (min-width: 1024px){
@@ -798,6 +798,10 @@ html{
   margin-left: -0.25rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .mt-20{
   margin-top: 5rem;
 }
@@ -830,12 +834,12 @@ html{
   height: 1.25rem;
 }
 
-.h-96{
-  height: 24rem;
-}
-
 .h-\[10rem\]{
   height: 10rem;
+}
+
+.h-\[13rem\]{
+  height: 13rem;
 }
 
 .h-\[1px\]{
@@ -844,6 +848,10 @@ html{
 
 .h-\[20rem\]{
   height: 20rem;
+}
+
+.h-\[25rem\]{
+  height: 25rem;
 }
 
 .h-\[5rem\]{
@@ -914,8 +922,16 @@ html{
   gap: 1.25rem;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .whitespace-nowrap{
   white-space: nowrap;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .rounded-md{
@@ -938,6 +954,11 @@ html{
 .border-abu{
   --tw-border-opacity: 1;
   border-color: rgb(69 69 69 / var(--tw-border-opacity));
+}
+
+.border-biru{
+  --tw-border-opacity: 1;
+  border-color: rgb(19 144 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#3b5998\]{
@@ -970,8 +991,22 @@ html{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-\[0\.55rem\]{
   padding: 0.55rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .px-2{
@@ -982,6 +1017,11 @@ html{
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .px-6{
@@ -1004,6 +1044,11 @@ html{
   padding-bottom: 0.75rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1013,8 +1058,8 @@ html{
   padding-bottom: 0.25rem;
 }
 
-.pt-8{
-  padding-top: 2rem;
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
@@ -1049,6 +1094,11 @@ html{
   line-height: 1.5rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1069,6 +1119,14 @@ html{
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-normal{
+  font-weight: 400;
+}
+
+.leading-tight{
+  line-height: 1.25;
 }
 
 .text-abu{
@@ -1093,6 +1151,11 @@ html{
 .text-kuning{
   --tw-text-opacity: 1;
   color: rgb(255 217 61 / var(--tw-text-opacity));
+}
+
+.text-putih{
+  --tw-text-opacity: 1;
+  color: rgb(247 247 247 / var(--tw-text-opacity));
 }
 
 .text-white{

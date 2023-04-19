@@ -56,10 +56,11 @@ html {
 
 @layer components {
 	.wrapper {
-		@apply max-w-full w-full bg-kuning flex items-center justify-center relative lg:pb-16 py-5 overflow-hidden;
+		@apply max-w-full w-full bg-kuning flex items-center justify-center relative lg:pb-16 py-2 overflow-hidden;
 	}
+
 	.image-container {
-		@apply max-w-[860px] w-[860px] lg:w-[360px] lg:justify-center lg:flex;
+		@apply max-w-[650px] w-[380px] lg:w-[360px] lg:justify-center lg:flex;
 	}
 	.carousel {
 		@apply h-full w-full flex lg:justify-center  transition-all ease-in-out;
