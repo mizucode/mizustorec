@@ -56,19 +56,19 @@ html {
 
 @layer components {
 	.wrapper {
-		@apply max-w-full w-full bg-kuning flex items-center justify-center relative overflow-hidden;
+		@apply max-w-full w-full bg-kuning flex items-center justify-center relative lg:pb-16 py-5 overflow-hidden;
 	}
 	.image-container {
-		@apply max-w-[860px] w-[860px];
+		@apply max-w-[860px] w-[860px] lg:w-[360px] lg:justify-center lg:flex;
 	}
 	.carousel {
-		@apply h-full w-full flex  transition-all duration-3000 ease-in-out;
+		@apply h-full w-full flex lg:justify-center  transition-all ease-in-out;
 	}
 	.carousel-img {
 		@apply h-full w-full object-cover border-kuning border-8 rounded-2xl;
 	}
 	.button {
-		@apply text-biru cursor-pointer absolute z-10 h-[30px] w-[30px] bg-white rounded-full flex justify-center items-center text-center text-lg top-1/2 -translate-y-1/2;
+		@apply text-biru cursor-pointer absolute z-10 h-[50px] w-[50px] opacity-60 bg-white rounded-full flex justify-center items-center text-center text-lg top-1/2 lg:top-[40%] -translate-y-1/2;
 	}
 	.prev {
 		@apply left-6;

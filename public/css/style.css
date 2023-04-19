@@ -684,13 +684,21 @@ html{
 .wrapper{
   position: relative;
   display: flex;
-  width: 100vw;
+  width: 100%;
   max-width: 100%;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(255 217 61 / var(--tw-bg-opacity));
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+@media (min-width: 1024px){
+  .wrapper{
+    padding-bottom: 4rem;
+  }
 }
 
 .image-container{
@@ -698,13 +706,27 @@ html{
   max-width: 860px;
 }
 
+@media (min-width: 1024px){
+  .image-container{
+    display: flex;
+    width: 360px;
+    justify-content: center;
+  }
+}
+
 .carousel{
   display: flex;
   height: 100%;
   width: 100%;
   transition-property: all;
-  transition-duration: 3000ms;
+  transition-duration: 150ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1024px){
+  .carousel{
+    justify-content: center;
+  }
 }
 
 .carousel-img{
@@ -723,8 +745,8 @@ html{
   top: 50%;
   z-index: 10;
   display: flex;
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   cursor: pointer;
@@ -738,6 +760,13 @@ html{
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(19 144 255 / var(--tw-text-opacity));
+  opacity: 0.6;
+}
+
+@media (min-width: 1024px){
+  .button{
+    top: 40%;
+  }
 }
 
 .prev{
@@ -799,6 +828,10 @@ html{
 
 .h-5{
   height: 1.25rem;
+}
+
+.h-96{
+  height: 24rem;
 }
 
 .h-\[10rem\]{
@@ -978,6 +1011,10 @@ html{
 
 .pb-1{
   padding-bottom: 0.25rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
 }
 
 .text-center{
