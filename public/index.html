@@ -19,7 +19,7 @@
 			<div class="container py-2">
 				<div class="navbar">
 					<div class="navbar-logo">
-						<div class="lg:hidden">
+						<div class="md:hidden">
 							<a href="./prelogin.html"
 								><i class="fa-solid fa-bars text-abu flex"></i
 							></a>
@@ -60,7 +60,7 @@
 				</div>
 			</div>
 		</header>
-		<section class="wrapper">
+		<section class="wrapper z-10">
 			<div class="button prev" id="prev">
 				<i class="fa-solid fa-chevron-left"></i>
 			</div>
@@ -83,17 +83,17 @@
 				</div>
 			</div>
 		</section>
-		<section class="pt-4 mb-10">
-			<div class="container">
+		<section class="pt-4 mb-10 md:-mt-10 z-40 relative">
+			<div class="container md:flex">
 				<div
-					class="w-full rounded-md bg-biru h-[25rem] overflow-hidden shadow-md"
+					class="w-full rounded-md bg-biru h-[25rem] md:h-[13rem] overflow-hidden shadow-md md:flex md:items-center md:justify-center"
 				>
 					<div class="wrapper bg-biru p-2">
-						<div class="button prev" id="prev">
+						<div class="button prev md:top-[50%]" id="prev">
 							<i class="fa-solid fa-chevron-left"></i>
 						</div>
 
-						<div class="image-container">
+						<div class="image-container md:h-[200px]">
 							<div class="carousel">
 								<img
 									src="../img/banner8.webp"
@@ -101,23 +101,25 @@
 									class="carousel-img border-biru"
 								/>
 							</div>
-							<div class="button next" id="next">
+							<div class="button next md:top-[50%]" id="next">
 								<i class="fa-solid fa-chevron-right"></i>
 							</div>
 						</div>
 					</div>
-					<div class="px-5 py-2">
+					<div
+						class="px-5 py-2 md:flex md:flex-col md:justify-start md:items-start"
+					>
 						<h1 class="text-white font-bold text-xl leading-tight">
 							Kami menawarkan berbagai macam figure karakter premium yang detail
 							dan berkualitas tinggi!
 						</h1>
-					</div>
-					<div class="py-4 px-5 text-center">
-						<a
-							href="#"
-							class="bg-white px-16 py-2 rounded-full font-medium text-biru text-xl"
-							>Pakai Mizupoint!</a
-						>
+						<div class="py-6 text-center">
+							<a
+								href="#"
+								class="bg-white px-16 py-2 rounded-full font-medium text-biru text-xl"
+								>Pakai Mizupoint!</a
+							>
+						</div>
 					</div>
 				</div>
 
@@ -151,7 +153,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="mb-10 md:my-16">
+		<section class="mb-10 md:my-20">
 			<div class="container">
 				<h1 class="font-bold text-xl md:text-2xl text-dark mb-2">Kategori</h1>
 				<div
@@ -160,100 +162,120 @@
 					<div
 						class="w-10rem md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/Nendroid.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Nendoroid
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/scaled.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Scaled Figure
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/prize.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Prize Figure
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/pup.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Pop Up Parade
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/model-kit.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Model Kit
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/figma.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Figma
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/merch.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Merchandise
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/plush.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Plush
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/ln.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1"
+						>
 							Light Novel
 						</h1>
 					</div>
 					<div
 						class="w-full md:w-[8rem] h-28 md:h-36 bg-white rounded-sm shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px]"
 					>
-						<div class="w-full h-4/6 overflow-hidden mt-1">
+						<div class="w-full h-4/6 overflow-hidden mt-1 flex justify-center">
 							<img src="../img/manga.png" alt="" />
 						</div>
-						<h1 class="text-center text-[10px] font-bold leading-none mt-1">
+						<h1
+							class="text-center text-[10px] md:text-[15px] md:mt-3 font-bold leading-none mt-1 flex justify-center"
+						>
 							Manga
 						</h1>
 					</div>
@@ -315,6 +337,7 @@
 							<!-- End Button -->
 						</div>
 					</div>
+
 					<div class="card">
 						<div class="w-40 h-40">
 							<img
@@ -357,6 +380,231 @@
 							<!-- End Button -->
 						</div>
 					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -373,6 +621,232 @@
 				<div
 					class="w-full h-[17rem] py-4 bg-white shadow-md flex justify-evenly"
 				>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/eris.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									PVC 1/7 Eris - Sneaker Bunko 30th Anniversary Ver.
+									(Re-Release)
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+
 					<div class="card">
 						<div class="w-40 h-40">
 							<img
@@ -474,6 +948,226 @@
 				<div
 					class="w-full h-[17rem] py-4 bg-white shadow-md flex justify-evenly"
 				>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/shinon.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									Clear File Asada Shino - Sword Art Online Alicization X LAWSON
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/shinon.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									Clear File Asada Shino - Sword Art Online Alicization X LAWSON
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/shinon.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									Clear File Asada Shino - Sword Art Online Alicization X LAWSON
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/shinon.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									Clear File Asada Shino - Sword Art Online Alicization X LAWSON
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
+					<div class="hidden md:flex">
+						<div class="card">
+							<div class="w-40 h-40">
+								<img
+									src="../img/shinon.webp"
+									class="w-full h-full object-cover"
+									alt=""
+								/>
+							</div>
+							<div class="p-2 flex flex-col gap-1">
+								<!-- Kategori -->
+								<div class="flex items-center gap-2">
+									<span class="badge">Konosuba</span>
+									<span class="badge">Action Figure</span>
+								</div>
+								<!-- End Kategori -->
+								<!-- Judul Product -->
+								<h2 class="product-title" title="Action Figure Aqua">
+									Clear File Asada Shino - Sword Art Online Alicization X LAWSON
+								</h2>
+								<!-- End Judul -->
+								<!-- Harga -->
+								<span class="text-[10px] text-biru font-bold">
+									IDR 2.500.000
+								</span>
+								<div class="flex items-center gap-2">
+									<span class="text-[10px] opacity-50">DP 100.000</span>
+									<span class="discount-percent">Ready Stock</span>
+								</div>
+								<!-- End Harga -->
+								<!-- Product Action Button -->
+								<!-- <div class="mt-5 flex gap-2">
+								<button class="button-primary">Buy Now</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-heart opacity-50"></i>
+								</button>
+								<button class="button-icon">
+									<i class="fa-solid fa-eye opacity-50"></i>
+								</button>
+							</div> -->
+								<!-- End Button -->
+							</div>
+						</div>
+					</div>
 					<div class="card">
 						<div class="w-40 h-40">
 							<img
@@ -562,7 +1256,6 @@
 				</div>
 			</div>
 		</section>
-
 		<section class="mb-10">
 			<div class="container">
 				<div class="text-center">
@@ -574,7 +1267,6 @@
 				</div>
 			</div>
 		</section>
-
 		<footer class="bg-dark w-full">
 			<div class="container">
 				<div class="py-20">

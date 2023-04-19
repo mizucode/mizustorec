@@ -21,7 +21,7 @@ html {
 
 /* Wishlist */
 .lgpd {
-	@apply lg:px-20 lg:py-2;
+	@apply md:px-20 md:py-2;
 }
 /* end wishlist */
 
@@ -32,7 +32,7 @@ html {
 		@apply bg-white relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] w-full flex items-center z-10;
 	}
 	.navbar {
-		@apply flex items-center justify-between lg:justify-around relative py-1 lg:py-3;
+		@apply flex items-center justify-between md:justify-around relative py-1 md:py-3;
 	}
 	.navbar-logo {
 		@apply flex items-center gap-1;
@@ -41,7 +41,7 @@ html {
 		@apply text-biru font-bold text-xl md:text-3xl;
 	}
 	.navbar-search {
-		@apply relative hidden lg:flex;
+		@apply relative hidden md:flex;
 	}
 	.navbar-input {
 		@apply flex justify-center items-center;
@@ -56,20 +56,20 @@ html {
 
 @layer components {
 	.wrapper {
-		@apply max-w-full w-full bg-kuning flex items-center justify-center relative lg:pb-16 py-2 overflow-hidden;
+		@apply max-w-full w-full bg-kuning flex items-center justify-center relative md:pb-16 py-2 overflow-hidden;
 	}
 
 	.image-container {
-		@apply max-w-[650px] w-[380px] lg:w-[360px] lg:justify-center lg:flex;
+		@apply max-w-[650px] w-[380px] md:w-[360px] md:justify-center md:flex;
 	}
 	.carousel {
-		@apply h-full w-full flex lg:justify-center  transition-all ease-in-out;
+		@apply h-full w-full flex md:justify-center  transition-all ease-in-out;
 	}
 	.carousel-img {
 		@apply h-full w-full object-cover border-kuning border-8 rounded-2xl;
 	}
 	.button {
-		@apply text-biru cursor-pointer absolute z-10 h-[50px] w-[50px] opacity-60 bg-white rounded-full flex justify-center items-center text-center text-lg top-1/2 lg:top-[40%] -translate-y-1/2;
+		@apply text-biru cursor-pointer absolute z-10 h-[50px] w-[50px] opacity-60 bg-white rounded-full flex justify-center items-center text-center text-lg top-1/2 md:top-[40%] -translate-y-1/2;
 	}
 	.prev {
 		@apply left-6;

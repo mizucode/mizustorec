@@ -622,7 +622,7 @@ html{
   padding-bottom: 0.25rem;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .navbar{
     justify-content: space-around;
     padding-top: 0.75rem;
@@ -656,7 +656,7 @@ html{
   display: none;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .navbar-search{
     display: flex;
   }
@@ -695,7 +695,7 @@ html{
   padding-bottom: 0.5rem;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .wrapper{
     padding-bottom: 4rem;
   }
@@ -706,7 +706,7 @@ html{
   max-width: 650px;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .image-container{
     display: flex;
     width: 360px;
@@ -723,7 +723,7 @@ html{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .carousel{
     justify-content: center;
   }
@@ -763,7 +763,7 @@ html{
   opacity: 0.6;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .button{
     top: 40%;
   }
@@ -866,12 +866,20 @@ html{
   position: fixed;
 }
 
+.relative{
+  position: relative;
+}
+
 .bottom-0{
   bottom: 0px;
 }
 
 .z-10{
   z-index: 10;
+}
+
+.z-40{
+  z-index: 40;
 }
 
 .my-24{
@@ -909,6 +917,10 @@ html{
 
 .mt-6{
   margin-top: 1.5rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
 }
 
 .box-border{
@@ -1219,6 +1231,11 @@ html{
   padding-bottom: 1.25rem;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-1{
   padding-bottom: 0.25rem;
 }
@@ -1363,7 +1380,7 @@ html{
 
 /* Wishlist */
 
-@media (min-width: 1024px){
+@media (min-width: 768px){
   .lgpd{
     padding-left: 5rem;
     padding-right: 5rem;
@@ -1408,9 +1425,38 @@ html{
 }
 
 @media (min-width: 768px){
+  .md\:static{
+    position: static;
+  }
+
+  .md\:absolute{
+    position: absolute;
+  }
+
+  .md\:relative{
+    position: relative;
+  }
+
+  .md\:top-\[50\%\]{
+    top: 50%;
+  }
+
   .md\:my-16{
     margin-top: 4rem;
     margin-bottom: 4rem;
+  }
+
+  .md\:my-20{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .md\:-mt-10{
+    margin-top: -2.5rem;
+  }
+
+  .md\:mt-3{
+    margin-top: 0.75rem;
   }
 
   .md\:flex{
@@ -1423,6 +1469,14 @@ html{
 
   .md\:h-36{
     height: 9rem;
+  }
+
+  .md\:h-\[13rem\]{
+    height: 13rem;
+  }
+
+  .md\:h-\[200px\]{
+    height: 200px;
   }
 
   .md\:w-\[30rem\]{
@@ -1443,6 +1497,26 @@ html{
 
   .md\:grid-rows-1{
     grid-template-rows: repeat(1, minmax(0, 1fr));
+  }
+
+  .md\:flex-col{
+    flex-direction: column;
+  }
+
+  .md\:items-start{
+    align-items: flex-start;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:justify-items-center{
@@ -1471,6 +1545,14 @@ html{
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .md\:text-\[15px\]{
+    font-size: 15px;
   }
 
   .md\:shadow-\[rgba\(0\2c _0\2c _0\2c _0\.24\)_0px_3px_8px\]{
