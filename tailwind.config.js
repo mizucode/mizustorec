@@ -20,6 +20,7 @@ module.exports = {
 				abu: "#454545",
 				dark: "#232323",
 				putih: "#f7f7f7",
+				text: "#393C43",
 			},
 			screens: {
 				"2xl": "1320px",

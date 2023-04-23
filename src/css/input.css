@@ -108,3 +108,16 @@ html {
 		@apply flex-grow flex justify-center items-center text-[0.5rem] bg-gray-300/60 hover:bg-gray-300/80 transition rounded-sm;
 	}
 }
+
+/* Product */
+
+@layer components {
+	.judul-product {
+		@apply px-4 pb-2 border-putih border-b-2;
+	}
+	.preorder {
+		@apply px-4 py-4 border-putih border-y-2;
+	}
+}
+
+/* End */
